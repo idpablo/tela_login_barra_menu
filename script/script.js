@@ -9,3 +9,23 @@ window.onscroll = function(){
     }
     prevScrollpos = currentScrollPos;
 }
+
+/*Script para efeito nos campos login e senha*/
+
+var email = document.getElementById('email');
+
+email.addEventListener('focus',()=>{
+    email.style.borderColor = "rgb(32, 29, 29);";
+});
+email.addEventListener('blur',()=>{
+    email.style.borderColor = "color: white;";
+});
+
+var password = document.getElementById('password');
+
+password.addEventListener('focus',()=>{
+    password.style.borderColor = "rgb(32, 29, 29);";
+});
+password.addEventListener('blur',()=>{
+    password.style.borderColor = "color: white;";
+});
