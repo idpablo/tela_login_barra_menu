@@ -15,17 +15,17 @@ window.onscroll = function(){
 var email = document.getElementById('email');
 
 email.addEventListener('focus',()=>{
-    email.style.borderColor = "rgb(32, 29, 29);";
+    email.style.borderColor = "color: rgb(32, 29, 29);";
 });
 email.addEventListener('blur',()=>{
-    email.style.borderColor = "color: white;";
+    email.style.borderColor = "color: rgb(32, 29, 29);";
 });
 
 var password = document.getElementById('password');
 
 password.addEventListener('focus',()=>{
-    password.style.borderColor = "rgb(32, 29, 29);";
+    password.style.borderColor = "color: rgb(32, 29, 29);";
 });
 password.addEventListener('blur',()=>{
-    password.style.borderColor = "color: white;";
+    password.style.borderColor = "color: rgb(32, 29, 29);";
 });
