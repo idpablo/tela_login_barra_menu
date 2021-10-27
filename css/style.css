@@ -7,6 +7,7 @@ body{
     background-color: rgb(43, 41, 41);
 }
 form{
+    opacity: 0.9;
     background-color: aliceblue;
     max-width: 500px;
     width: 70%;
@@ -45,10 +46,14 @@ form input[type=submit]:hover{
         outline: 0;
 }
 form input[type=text]:focus{
-    outline: 0;
+    outline-color: rgb(43, 41, 41);
+    outline-style: hidden;
+    outline: 1;
+   
 }
 form input[type=password]:focus{
-    outline: 0;
+    outline-color: rgb(43, 41, 41);
+    outline: 1;
 }
 
 /*IDs*/
